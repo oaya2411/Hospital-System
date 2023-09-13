@@ -1,0 +1,341 @@
+body{
+    background-color: ghostwhite;
+    padding: 0;
+    margin: 0;
+    color: #3664b6;
+    font-family: "Leelawadee UI";
+    font-size:large;
+}
+
+.input{
+    margin: 3px;
+    background-color: ghostwhite;
+    border-radius: 18px;
+    border-color: #213C69FF;
+    color: #1e4b9b;
+    height: 20px;
+}
+
+.label{
+    width:200px;
+    display: inline-block;
+}
+
+.field{
+    /*grid-template-columns: repeat(2, 1fr);*/
+    /*grid-gap:5px 0px;*/
+    margin: 20px 100px 100px 100px;
+    border-style: solid;
+    border-radius: 18px;
+    border-color: #7895CB;
+    line-height:45px;
+    /*color: #432467;*/
+}
+
+.b1{
+    height: 50px;
+    width: 160px;
+    margin-right:20px;
+    float:right;
+    font-style: oblique;
+    font-size: large;
+    font-weight: bolder;
+    border-radius: 18px;
+    background-color: ghostwhite;
+    color:#3664b6;
+}
+
+.b1:hover{
+    font-size: x-large;
+    /*background-color: #748cbe;*/
+}
+
+.success{
+    margin:auto;
+    text-align: center;
+}
+
+table{
+    border-radius: 20px;
+    border-style:solid;
+    width:100%;
+    border-style: none;
+}
+
+th
+{
+color:ghostwhite;
+background-color:#3664b6;
+padding: 2px; 
+text-align: center; 
+border-style:solid; 
+border-radius: 20px;
+
+}
+
+td{
+    border: solid 1px  #3664b6;
+    border-radius: 20px;
+}
+
+tr:hover{
+    background-color:aliceblue;
+}
+
+table{
+    text-align: center;
+    margin: 5px;
+}
+.result{
+    width:100%;
+    text-align: center;
+    margin: 6px 100px 0px 0px;
+}
+
+.re{/*tr of search section*/
+color:#1e4b9b;
+background-color:ghostwhite;
+padding: 2px;  
+border-style:solid;
+border-color:#7895CB; 
+border-width: 0px;
+}
+
+.res{ /*td of search section*/
+    margin:20px;
+    background-color:#3664b6;
+    color:ghostwhite;
+    border-width: 1px;
+
+}
+
+input[type="number"]::placeholder {
+    font-style: italic;
+    color:#7895CB;
+
+}
+
+#f{
+    margin-top:100px;
+}
+
+#search{
+    position: absolute;
+    display:flex;
+    top:42px;
+    right: 0px;
+    margin: 10px 20px 30px 10px;
+    width:170px;
+    padding:5px;
+    text-align: left;
+    background-color: none;
+    border-width: 0;
+}
+
+#icon{
+    position: absolute;
+    right: 15px;
+    top:42px;
+    margin: 15px 15px 0 0;
+}
+
+#upDel{
+    padding: 20px;
+    margin: 20px 100px 100px 100px;
+    border-style: solid;
+    border-radius: 18px;
+    border-color: #7895CB;
+    line-height:45px;
+}
+
+#select{
+    margin: 3px;
+    background-color: ghostwhite;
+    border-radius: 20px;
+    border-color: #213C69FF;
+    color: #1e4b9b;
+    height: 20px;
+    width:150px;
+}
+#select option:hover{
+    border-color: #213C69FF;
+}
+
+.tableData{
+    text-align:center; 
+    border-style:none; 
+    border-color:ghostwhite;
+    background-color: ghostwhite;
+    color: #3664b6;
+    border-radius: 20px;
+    margin:7px;
+    font-size: large;
+
+}
+.tableData:hover{
+    background-color: aliceblue;
+}
+
+#updateButton{
+    background-color:#3664b6;
+    cursor:pointer;
+    color:ghostwhite;
+    border-radius: 20px;
+    height:35px;
+    width: 80px;
+    border-style: none;
+    margin:3px;
+}
+.patientUpdateTable{
+    width:100%;
+    overflow:scroll;
+    scrollbar-color: #4A55A2;
+}
+
+/* Style the scrollbar thumb (the draggable part) */
+.patientUpdateTable::-MS-webkit-scrollbar-thumb {
+    background-color: #4A55A2; /* Change the color */
+    border-radius: 6px; /* Rounded corners for the thumb */
+}
+
+#message{
+    border-color:lightgray;
+    position:absolute;
+    width:500px;
+    height:140px;
+    display:flex;
+    text-align:center;
+    left:30%;
+    top:250px;
+    /* align-content:center;
+    align-items:center; */
+    color:#ff0000b0;
+    opacity:0;}
+
+
+.con{
+    background-color:ghostwhite;
+    border-radius:20px;
+    border-color:#213c69;
+    width:80px;
+    height:40px;
+    margin:5px;
+    font-weight:bold;
+    color:#3664b6;
+}
+
+#confirm{
+    right:80px;
+}
+
+#confirm:hover{
+  /* font-size:x-large; */
+    background-color:#f0feff; 
+}
+
+#refuse:hover{
+    background-color:#ddaaac33;
+}
+#refuse{
+    border-color:#ff000094
+}
+
+.basket{
+    background-color: ghostwhite;
+    border-style: none;
+    cursor:pointer;
+    padding:2px;
+}
+.basket:hover{
+    height:70px;
+    width:70px;
+}
+
+#confirmMessage{
+    margin:auto;
+    text-align:center;
+    border-color: #3664b6;
+    border-style:solid;
+    border-width:2px;
+    width: 770px;
+    height:170px;
+    border-radius:20px;
+    font-size:large;
+}
+
+/* .form1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    background-color: rgb(45, 90, 90);
+
+}
+
+.form1:hover{
+    background-color:black;
+} */
+.form1{
+    margin-left:300px;
+}
+.form1:hover{
+    margin-left:100px;
+}
+
+#docPic:hover{
+    cursor:pointer ;
+}
+
+.button-container {
+    text-align: center;
+    position: relative;
+}
+
+.image-container {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px; /* Adjust the margin as needed */
+    background-color: ghostwhite;
+    border-style: none;
+}
+
+.TextArea {
+    display: inline-block;
+    vertical-align: middle;
+    background: linear-gradient(to right, rgb(145, 196, 231), #4A55A2);
+    border-radius: 5px;
+    color: ghostwhite;
+    opacity: 0;
+    transform: translateX(10px);
+    transition: opacity 0.5s, transform 0.5s;
+    padding: 5px 10px; /* Add padding to give it some width and height */
+    min-width: 150px; /* Set a minimum width for the TextArea */
+    border-radius: 30px;
+}
+
+
+
+.addNew{
+    margin:10px;
+    background-color:ghostwhite;
+    border-style:none;
+    margin-bottom: 60px;
+} 
+
+.addButton{
+    width: 30px; /* Adjust the width and height to make the button the desired size */
+    height: 30px;
+    border-radius: 50%; /* Makes the button circular */
+    padding: 0; /* Remove padding to make the image fit */
+    border: none; /* Remove border */
+    cursor: pointer; /* Change cursor on hover */    
+    margin:20px;
+    background-color: ghostwhite;
+
+}
+
+/* Add any desired styles for the button and image here */
+
+
+/* Add any desired styles for the button and image here */
